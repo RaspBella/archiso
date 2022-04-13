@@ -11,6 +11,7 @@ broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
+compton
 cryptsetup
 darkhttpd
 ddrescue
