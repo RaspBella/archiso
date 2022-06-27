@@ -11,7 +11,6 @@ broadcom-wl
 btrfs-progs
 clonezilla
 cloud-init
-compton
 cryptsetup
 darkhttpd
 ddrescue
@@ -123,5 +122,3 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-xorg
-zsh
