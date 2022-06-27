@@ -14,6 +14,9 @@ fi
 TERMINAL='/usr/bin/alacritty'
 EDITOR='/usr/bin/nvim'
 
+TERMINAL='/usr/bin/alacritty'
+EDITOR='/usr/bin/nvim'
+
 alias vim=nvim
 alias ls='exa -al'
 alias neofetch='neofetch | lolcat'
