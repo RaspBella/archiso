@@ -115,7 +115,6 @@ usbmuxd
 usbutils
 virtualbox-guest-utils-nox
 vpnc
-wayfire-btw
 wireless-regdb
 wireless_tools
 wpa_supplicant
