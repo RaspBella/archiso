@@ -1,8 +1,8 @@
+alacritty
 alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
-awesome
 b43-fwcutter
 base
 bind-tools
@@ -30,7 +30,6 @@ exa
 exfatprogs
 f2fs-tools
 fatresize
-firefox
 fsarchiver
 gnu-netcat
 gpart
@@ -46,14 +45,10 @@ irssi
 iw
 iwd
 jfsutils
-kitty
-kitty-terminfo
 less
 lftp
 libfido2
 libusb-compat
-lightdm
-lightdm-gtk-greeter
 linux
 linux-atm
 linux-firmware
@@ -81,6 +76,7 @@ nfs-utils
 nilfs-utils
 nmap
 ntfs-3g
+nvim
 nvme-cli
 openconnect
 openssh
@@ -93,6 +89,7 @@ ppp
 pptpclient
 pv
 qemu-guest-agent
+qutebrowser
 refind
 reflector
 reiserfsprogs
@@ -117,9 +114,9 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
 virtualbox-guest-utils-nox
 vpnc
+wayfire-desktop
 wireless-regdb
 wireless_tools
 wpa_supplicant
