@@ -1,8 +1,6 @@
 # Archiso
 > sudo pacman -S archiso
 
-> cd /tmp
-
-> git clone https://github.com/RaspBella/archiso
+> git clone https://github.com/RaspBella/archiso /tmp/archiso
 
 > sudo mkarchiso -v -w /tmp/archiso /tmp/archiso/
