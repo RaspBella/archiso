@@ -3,6 +3,7 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+awesome
 b43-fwcutter
 base
 bind-tools
@@ -48,6 +49,8 @@ less
 lftp
 libfido2
 libusb-compat
+lightdm
+lightdm-gtk-greeter
 linux
 linux-atm
 linux-firmware
