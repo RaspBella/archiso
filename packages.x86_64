@@ -6,6 +6,7 @@ archinstall
 awesome
 b43-fwcutter
 base
+bash-completion
 bind-tools
 brltty
 broadcom-wl
