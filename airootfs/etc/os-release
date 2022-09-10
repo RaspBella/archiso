@@ -1,0 +1,5 @@
+NAME="BellArch Linux"
+PRETTY_NAME="BellArch Linux"
+ID=bellarch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
