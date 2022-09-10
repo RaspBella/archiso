@@ -2,7 +2,7 @@
 
 ## Things you will need already
 - An Arch Linux based distribution.
-- Nice hardware and or patience
+- Nice hardware and or patience.
 
 ## Things to do before your able to build
 - Install the archiso package with pacman.
