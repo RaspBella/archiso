@@ -17,3 +17,8 @@
 - - o for where you want the built iso file to be placed
 - - and you have to specify work path at the end **WITH** a trailing /
 ### mkarchiso -v -w /tmp/archiso -o outdir /tmp/archiso/
+
+## User login info
+If you just want to build and use then you'll need to know the login details:
+- user:girlboss
+- girlboss's password:girlboss
