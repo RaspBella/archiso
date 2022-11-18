@@ -105,10 +105,10 @@ sudo
 syslinux
 systemd-resolvconf
 tcpdump
-terminus-font
 testdisk
 tmux
 tpm2-tss
+ttf-dejavu
 udftools
 usb_modeswitch
 usbmuxd
