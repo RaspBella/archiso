@@ -49,7 +49,7 @@ beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 
 -- Programs.
 terminal = "kitty"
-editor = os.getenv("EDITOR")
+editor = "nvim"
 editor_cmd = terminal .. " -e " .. editor
 background = os.getenv("HOME") .. "/.config/background"
 browser = "firefox"
