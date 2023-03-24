@@ -22,7 +22,3 @@
 If you just want to build and use then you'll need to know the login details:
 - user:girlboss
 - girlboss's password:girlboss
-
-#
-Yo I'm back
-updated and tested but have school so will make a release around 12:45-13:00 (Europe/London)
