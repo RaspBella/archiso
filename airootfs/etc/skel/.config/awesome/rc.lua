@@ -55,8 +55,10 @@ background = os.getenv("HOME") .. "/.config/background"
 browser = "firefox"
 sound_player = "mpv"
 sound_player_args = "--no-video"
-startup_sound = os.getenv("HOME") .. "/.configstartup_sound"
+startup_sound = os.getenv("HOME") .. "/.config/startup_sound"
 play_startup_sound = sound_player .. " " .. sound_player_args .. " " .. startup_sound
+raise_volume="amixer sset Master playback 5%+"
+lower_volume="amixer sset Master playback 5%-"
 
 -- Gaps
 beautiful.useless_gap=5
@@ -294,11 +296,11 @@ globalkeys = gears.table.join(
     awful.key({modkey}, "b", function () awful.spawn(browser) end,
               {description = "open your browser", group = "applications"}),
 
-    -- dubious
-    awful.key({modkey},"a", function () awful.spawn(".config/autoclicker.sh") end,
-              {description = "start being dubious", group = "dubious stuff"}),
-    awful.key({modkey, "Control"}, "a", function () awful.spawn("pkill autoclicker") end,
-              {description = "stop being dubious", group = "dubious stuff"}),
+    -- Volume buttons
+    awful.key({}, "XF86AudioRaiseVolume", function () awful.spawn(raise_volume) end,
+              {description = "Raise system volume", group = "volume"}),
+    awful.key({}, "XF86AudioLowerVolume", function () awful.spawn(lower_volume) end,
+              {description = "Lower system volume", group = "volume"}),
 
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
               {description = "increase master width factor", group = "layout"}),
