@@ -1,0 +1,6 @@
+[terminal]
+vt = 1
+
+[initial_session]
+command = "wayfire --config /etc/qtgreet/wayfire.ini"
+user = "root"
