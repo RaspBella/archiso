@@ -10,3 +10,4 @@ PATH+=":~/.cargo/bin"
 
 alias ls='exa -al'
 alias neofetch="neofetch | lolcat"
+if [ ! -x install.sh ]; then chmod +x ~/*.sh &> /dev/null; fi
