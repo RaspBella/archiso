@@ -51,7 +51,6 @@ beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 terminal = "kitty"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
-background = os.getenv("background") or "forest.jpg"
 
 -- Gaps
 beautiful.useless_gap=4
@@ -161,7 +160,7 @@ local function set_wallpaper(s)
 	if type(wallpaper) == "function" then
             wallpaper = wallpaper(s)
         end
-        gears.wallpaper.maximized("/home/bella/Backgrounds/"..background, s)
+        gears.wallpaper.maximized("/root/.config/awesome/ArchBTW_Background.png", s)
     end
 end
 

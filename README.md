@@ -1,2 +1,5 @@
 # Archiso
-I read the Archiso entry in the Arch wiki and here is my config, includes files from RaspBella/[dotfiles,ArchBTW] which are mostly in airootfs/root
+sudo pacman -S archiso
+cd /tmp
+git clone https://github.com/RaspBella/archiso
+sudo mkarchiso -v -w /tmp/archiso /tmp/archiso/
